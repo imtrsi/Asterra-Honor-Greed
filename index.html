@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asterra — ванильный Minecraft-проект</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Onest:wght@400;500;600&family=Montserrat:wght@700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="nav-container glass">
+            <a href="index.html" class="logo-wrapper">
+                <img src="images/logo.png" alt="Asterra" class="logo-img">
+            </a>
+            <nav class="nav-links">
+                <a href="index.html" class="nav-link active">Главная</a>
+                <a href="description.html" class="nav-link">Описание</a>
+                <a href="rules.html" class="nav-link">Правила</a>
+            </nav>
+            <a href="https://discord.gg/XweX99nHAn" class="discord-btn">
+                <span>Discord</span>
+                <div class="icon">
+                    <img src="images/dc-icon.svg" alt="DC" class="icon-img">
+                </div>
+            </a>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-bg" style="background-image: url('images/hero-bg.jpg');"></div>
+            
+            <div class="hero-content">
+                <h1 class="main-title">Asterra</h1>
+                <p class="subtitle">Уютный фэнтези сервер с заботливым<br>комьюнити и доброй атмосферой</p>
+                
+                <button class="cta-button" onclick="copyIP()">
+                    Начать играть
+                    <div class="icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M5 12h14"></path>
+                            <path d="m12 5 7 7-7 7"></path>
+                        </svg>
+                    </div>
+                </button>
+            </div>
+        </section>
+
+        <section class="features" id="features-section">
+            <h2 class="features-title">Здесь нет готовой истории.<br>Ты сам создаёшь свой путь.</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-number">1</div>
+                    <h3 class="feature-title">Стабильность</h3>
+                    <p class="feature-desc">Мощный хостинг, стабильные TPS и низкий пинг - игра идёт плавно, без лагов и просадок.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-number">2</div>
+                    <h3 class="feature-title">Свобода выбора</h3>
+                    <p class="feature-desc">Ты сам решаешь, кем стать. Торговля, войны, приключения, политика - ты выбираешь свой путь. Астерра даёт тебе мир, а историю создаёшь ты сам.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="sticky-footer">
+        <div class="footer-content">
+            <a href="index.html" class="footer-logo">
+                <img src="images/logo.png" alt="Asterra" class="footer-logo-img">
+                <span>Asterra</span>
+            </a>
+            <nav class="footer-nav">
+                <a href="index.html">Главная</a>
+                <a href="description.html">Описание</a>
+                <a href="rules.html">Правила</a>
+            </nav>
+            <div class="footer-socials">
+                <a href="https://discord.gg/XweX99nHAn" class="social-icon">
+                    <img src="images/dc-icon.svg" alt="Discord">
+                </a>
+                <a href="https://t.me/imtrensi" class="social-icon">
+                    <img src="images/tg-icon.svg" alt="Telegram">
+                </a>
+            </div>
+        </div>
+        <div class="copyright">
+            © 2026 Asterra. Не связано с Mojang AB.
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
